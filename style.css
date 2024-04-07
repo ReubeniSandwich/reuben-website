@@ -1,9 +1,11 @@
 * {
   box-sizing: border-box;
   /* --- DEBUGGING --- */
+
   /* background: #000 !important;
   color: #0f0 !important;
-  outline: solid #f00 1px !important; */ }
+  outline: solid #f00 1px !important; */
+ }
 
 :root {
   font-family: var(--main-font);
@@ -150,7 +152,7 @@ body {
   height: 24vh;
   border-radius: 4px;
   padding: 1rem .5rem 3rem .5rem;
-  margin: 1rem 1rem 2rem 1rem;
+  /* margin: 1rem 1rem 2rem 1rem; */
   background: var(--main-white);
   box-shadow: var(--text-shadow) 0.1rem 0.1rem 0.9rem;
   z-index: 99999;
