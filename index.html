@@ -45,25 +45,22 @@
         <span class="arrow-down"></span>
     </nav>
 
-    <main class="main-container" id="main-container">
-
-        <div class="photo-card invisible"></div>
-
-        <div class="photo-card" style="transform: rotate(5deg);">
-            <img src="/Flowers-Wita-2022.jpg" alt="Foxglove flowers" class="card-img">
-            <p class="card-header">Wita's Garden<br>Spring 2022</p>
+    <main class="main-container">
+        <div class="photo-card" style="z-index: 101;">
+          <img src="/Flowers-Wita-2022.jpg" alt="Foxglove flowers" class="card-img">
+          <p class="card-header">Wita's Garden<br>Spring 2022</p>
         </div>
 
         <div class="photo-card">
-            <img src="/Asheville.jpg" alt="Asheville In Autumn" class="card-img">
-            <p class="card-header">Asheville In Autumn<br>Fall 2021</p>
+          <img src="/Asheville.jpg" alt="Asheville In Autumn" style="transform: rotate(5deg); z-index: 102;" class="card-img">
+          <p class="card-header">Asheville In Autumn<br>Fall 2021</p>
         </div>
-
-        <div class="photo-card" style="transform: rotate(2deg);">
-            <img src="/tame-impala-2021.jpg" alt="Tame Impala Concert" class="card-img">
-            <p class="card-header">Tame Impala<br>Fall 2021</p>
-        </div>
-    </main>
+        
+        <div class="photo-card" style="transform: rotate(2deg); z-index: 103;">
+          <img src="/tame-impala-2021.jpg" alt="Tame Impala Concert" class="card-img">
+          <p class="card-header">Tame Impala<br>Fall 2021</p>
+      </div>
+      </main>
 </body>
 <script type="module" src="/main.js"></script>
 </html>
