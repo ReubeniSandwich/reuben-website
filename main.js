@@ -136,7 +136,7 @@ function checkForBoundaryBox(targetObject) {
   }
 
   // BOTTOM
-  else if (targetObject.offsetTop > globalClientHeight) {
+  else if (targetObject.offsetTop > (globalClientHeight + targetObject.clientHeight)) {
     targetObject.style.top = targetObject.offsetTop - 10 + 'px'
   }
 }
